@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #99a1ab;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.row-gap{
+    row-gap: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.3333%;
+}
+
+.col-2 {
+    width: 16.6666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.col-5 {
+    width: 41.6666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.3333%;
+}
+
+.col-8 {
+    width: 66.6666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.3333%;
+}
+
+.col-11 {
+    width: 91.6666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.justify-between {
+
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blog img {
+    width: 20%;
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.blog h2 {
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.blog {
+    max-width: 300px;
+    min-height: 320px;
+    margin-right: 20px;
+    margin-left: 5px;
+    background-color: #36404e;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.5s linear;
+}
+.blog:hover{
+    transform: scale(1.1);
+}
